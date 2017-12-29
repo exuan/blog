@@ -25,3 +25,22 @@ if theme.disqus
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     script(id='dsq-count-scr' src='//#{theme.disqus}.disqus.com/count.js' async)
+
+if theme.wildfire
+    .wildfire_thread
+    script.
+        var wildfireConfig = function() {
+            return {
+                databaseProvider: '#{theme.wildfire.database_type}',
+                databaseConfig: {
+                    siteId: '#{theme.wildfire.database}'
+                },
+                pageURL: '#{page.path}',
+                pageTitle: '#{page.title}',
+                theme: '#{theme.wildfire.theme}',
+                locale: '#{config.language}'
+            };
+        };
+    
+    script(id='wildfire' src='//unpkg.com/wildfire/dist/wildfire.auto.js')
+     

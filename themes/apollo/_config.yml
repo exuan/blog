@@ -1,7 +1,8 @@
 menu:
     Blog: /
-    ARCHIVE: /archives/
-    GitHub: https://github.com/exuan
+    Archive: /archives/
+    Weibo: http://weibo.com/sunchongsheng
+    GitHub: https://github.com/pinggod
     Rss: /atom.xml
 
 favicon: /favicon.png
@@ -10,16 +11,15 @@ logo: /favicon.png
 # Comment
 # e.g disqus: seansun
 disqus:
-duoshuo: exuan
+duoshuo:
+wildfire:
+    database_type: wilddog
+    database: wd5279088213zzmwzi    
+    theme: light
 
 # Analytics
 # google-analytics:
-ga: UA-18217918-5
+ga: UA-65933410-1
 
 # Copyright Infomation
-startyear: 2014
-
-# Font CDN
-#true : use google fonts api, not stable for chinese visitor sometimes, caused by force majeure factor
-#false: use useso fonts api instead of google's, great response speed for chinese visitor
-googlefonts: false
+startyear: 2015

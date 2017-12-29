@@ -7,7 +7,7 @@ title: '雪轩'
 subtitle:
 description: '这是雪轩的个人blog'
 author: xuan
-language: zh-cn
+language: zh-CN
 timezone: PRC
 
 # URL
@@ -16,6 +16,7 @@ url: http://www.exuan.org
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+
 
 # Directory
 source_dir: source
@@ -69,7 +70,5 @@ theme: apollo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://git.coding.net/exuan/exuan.git
-  branch: pages
-  message: message
-
+  repo: 
+    coding: https://git.coding.net/exuan/exuan.git,coding-pages
