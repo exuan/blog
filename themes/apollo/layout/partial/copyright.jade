@@ -3,5 +3,10 @@
     - var apolloURL = "https://github.com/pinggod/hexo-theme-apollo";
     - var currentDate = new Date();
     - var year = currentDate.getFullYear();
+     - var upyURL = "https://www.upyun.com/";
     - year = year == theme.startyear ? year : theme.startyear + ' - ' + year;
     p © #{year} #[a(href=config.url)!= config.author], powered by #[a(href=hexoURL, target="_blank") Hexo] and #[a(href=apolloURL, target="_blank") hexo-theme-apollo].
+    p
+        a(href=upyURL, target="_blank")
+            img(src='/upy.png' width='200px', heigth='101px')
+    

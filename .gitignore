@@ -8,3 +8,5 @@ public/
 .deploy_git/
 .git
 yarn.lock
+package.json
+package-lock.json
