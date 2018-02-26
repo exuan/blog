@@ -82,6 +82,7 @@ from: https://github.com/kirang89/pycrumbs
 
 
 ## Beginner's Delight
+* [20+ Python Web Scraping Examples (Beautiful Soup & Selenium)](https://likegeeks.com/python-web-scraping/)
 * [Beginner's guide to Python](http://wiki.python.org/moin/BeginnersGuide)
 * [The Hitchhiker's guide to Python](http://docs.python-guide.org/en/latest/)
 * [Learn Python the hard way](http://learnpythonthehardway.org/book/)
