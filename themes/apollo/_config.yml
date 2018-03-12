@@ -18,7 +18,9 @@ wildfire:
 
 # Analytics
 # google-analytics:
-ga: UA-65933410-1
+ga:
+
+baidu: 871fa94d3edc0291c3a2ddfbb2ddc26b
 
 # Copyright Infomation
 startyear: 2015
