@@ -12,10 +12,20 @@ logo: /favicon.png
 disqus:
 duoshuo:
 wildfire:
-    database_type: wilddog
-    database: wd5279088213zzmwzi    
-    theme: light
+#    database_type: wilddog
+#    database: wd5279088213zzmwzi    
+#    theme: light
 
+valine: ## https://valine.js.org
+    enable: true ## If you want to use Valine comment system, please set the value to true.
+    appid: oh5vIoRTEmgFRx5Gjhy6vH6C-gzGzoHsz ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
+    appkey: VorqrsRN2nnv3uFgndCwQAHr ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
+    notify: false ## Mail notifier, see https://github.com/xCss/Valine/wiki/Valine-评论系统中的邮件提醒设置
+    verify: true ## Validation code.
+    placeholder: '' ## Comment box placeholders.
+    avatar: 'mm' ## Gravatar type, see https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
+    pageSize: 10 ## Number of comments per page.
+    guest_info: nick,mail,link ## Attributes of reviewers.
 # Analytics
 # google-analytics:
 ga:
